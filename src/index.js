@@ -3,11 +3,13 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import reportWebVitals from './reportWebVitals';
 import  Router  from './Components/Router';
-
+import Menu from './Components/Menu'
+import FormSimple from './Components/FormSimple';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <h1>Index Principal</h1>
+    <Menu/>
     <div>
         <Router/>
     </div>
